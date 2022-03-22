@@ -1,5 +1,5 @@
 const backdrop = document.querySelector('.backdrop')
-const selectPlanBtns = document.querySelectorAll('.plan button')
+const selectPlanBtns =document.querySelectorAll('.plan button')
 
 const modal = document.querySelector('.modal')
 const modalNoBtn = document.querySelector('.modal__action--negative')
