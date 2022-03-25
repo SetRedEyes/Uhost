@@ -1,3 +1,5 @@
+Builded with Sass, Webpack.
+
 ## How to run ?
 ```bash
 npm install
