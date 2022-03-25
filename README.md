@@ -1,4 +1,4 @@
-Builded with Sass, Webpack.
+Built with Sass, Webpack.
 
 ## Available Scripts
 
