@@ -1,4 +1,7 @@
 # Uhost-multi-page-responsive-website
-`npm install`
-<br />
-`npm run start`
+```http
+  GET /api/items
+  npm install
+npm run start
+```
+
