@@ -8,10 +8,10 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
   mode: 'development',
-  entry: './src/shared.js',
+  entry: './src/index.js',
   output: {
     filename: 'build.js',
-    path: path.resolve(__dirname, 'build'), 
+    path: path.resolve(__dirname, 'build'),
     assetModuleFilename: './[name][ext]'
   },
   devServer: {
@@ -22,6 +22,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
+      inject: true,
       template: './src/main/index.html',
       filename: 'index.html'
     }),
@@ -46,6 +47,10 @@ module.exports = {
         },
         {
           from: './src/favicon.png',
+          to: './'
+        },
+        {
+          from: './src/shared.js',
           to: './'
         }
       ]
