@@ -5,7 +5,7 @@
   "main": "shared.js",
   "scripts": {
     "start": "webpack serve",
-    "prod": "webpack"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
