@@ -1,9 +1,7 @@
-# Uhost-multi-page-responsive-website
 ## How to run ?
-
-
 ```
 npm install
-npm run start
+npm run start : `"start": "webpack serve"`
+npm run build : `"start": "webpack"`
 ```
 
