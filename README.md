@@ -1,4 +1,4 @@
-Built with Sass, Webpack.
+Multi-page responsive website of a web hosting company.
 
 ## Available Scripts
 
